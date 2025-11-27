@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos BAM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js" defer></script>
+</head>
+<body>
+
+<header>Productos BAM</header>
+
+<div class="contenedor">
+
+    <div class="card">
+        <div class="icono">💰</div>
+        <h3>Ahorro Creciente</h3>
+        <p>Aumenta tu ahorro mes a mes con beneficios especiales.</p>
+        <button class="btn" onclick="mostrar('infoAhorro')">Ver más</button>
+    </div>
+
+    <div class="card">
+        <div class="icono">🦷</div>
+        <h3>Seguro AP Dental</h3>
+        <p>Asistencia dental inmediata para emergencias.</p>
+        <button class="btn" onclick="mostrar('infoDental')">Ver más</button>
+    </div>
+
+    <div class="card">
+        <div class="icono">📄</div>
+        <h3>cuenta monetaia Planilla</h3>
+        <p>Acceso rápido a tus fondos de planilla.</p>
+        <button class="btn" onclick="mostrar('infoMonetiza')">Ver más</button>
+    </div>
+
+    <div class="card">
+        <div class="icono">🏦</div>
+        <h3>Cuenta Fácil Planilla</h3>
+        <p>Tu cuenta sin costo para recibir salario.</p>
+        <button class="btn" onclick="mostrar('infoCuenta')">Ver más</button>
+    </div>
+
+</div>
+
+<!-- ================= SECCIONES EXPANDIDAS ================ -->
+
+<div id="infoAhorro" class="info">
+    <h2>Ahorro Creciente</h2>
+
+    <h3>Características</h3>
+    <ul>
+        <li>Cálculo de intereses mensual sobre saldo.</li>
+        <li>No incluye tarjeta de débito.</li>
+        <li>Devenga intereses a partir de Q.500.00.</li>
+        <li>Tasas:
+            <ul>
+                <li>3 años: 4.50% anual</li>
+                <li>5 años: 5.50% anual</li>
+            </ul>
+        </li>
+        <li>Aportes extraordinarios cuando el cliente lo desee.</li>
+        <li>Comisión por cancelación anticipada según tabla definida.</li>
+        <li>Garantía B2B (Back to Back).</li>
+    </ul>
+
+    <h3>Beneficios</h3>
+    <ul>
+        <li>Opciones de 3 y 5 años.</li>
+        <li>Aportes debitados automáticamente desde cuenta monetaria o de ahorro.</li>
+        <li>Sin cobro por manejo de cuenta.</li>
+    </ul>
+</div>
+
+<div id="infoDental" class="info">
+    <h2>AP Dental</h2>
+
+    <h3>Descripción</h3>
+    <p>Asistencia dental diseñada para resolver emergencias odontológicas.</p>
+
+    <h3>Características</h3>
+    <ul>
+        <li>Cobertura exclusiva para emergencias dentales.</li>
+        <li>Apertura: Q.500.00.</li>
+        <li>Disponible únicamente en quetzales.</li>
+        <li>Aporte mínimo mensual: Q.100.00.</li>
+    </ul>
+
+    <h3>Requisitos</h3>
+    <ul>
+        <li>Ser guatemalteco.</li>
+        <li>Edad entre 18 y 60 años.</li>
+        <li>Pago mediante cuenta de ahorro, monetaria o tarjeta Bam.</li>
+    </ul>
+</div>
+
+<div id="infoMonetiza" class="info">
+    <h2>Cuenta Monetaria Planilla</h2>
+
+    <h3>Beneficios</h3>
+    <ul>
+        <li>Sin cobro por manejo de cuenta.</li>
+        <li>Membresía de tarjeta de débito gratis.</li>
+        <li>Transacciones gratis en ATM según plan asignado.</li>
+        <li>Estado de cuenta digital sin costo.</li>
+    </ul>
+
+    <h3>Características</h3>
+    <ul>
+        <li>Cuenta monetaria para segmento planilla sin intereses.</li>
+        <li>Sin monto de apertura.</li>
+        <li>2 chequeras gratis al año.</li>
+        <li>Chequera adicional de 25 cheques: Q13.</li>
+        <li>Chequera adicional de 50 cheques: Q26.</li>
+    </ul>
+</div>
+
+<div id="infoCuenta" class="info">
+    <h2>Cuenta Fácil Planilla</h2>
+
+    <h3>Descripción</h3>
+    <p>Cuenta monetaria en quetzales para las personas que reciben su salario en Bam.</p>
+
+    <h3>Beneficios</h3>
+    <ul>
+        <li>Apertura 100% digital.</li>
+        <li>Incluye 2 chequeras gratis al año.</li>
+        <li>Tarjeta de débito con membresía gratis.</li>
+    </ul>
+
+    <h3>Características</h3>
+    <ul>
+        <li>Monto de apertura: Q0.00.</li>
+        <li>Sin costo por manejo de cuenta.</li>
+        <li>Estado de cuenta enviado al correo electrónico.</li>
+        <li>Transferencias y pagos desde Bamvirtual, BamApp y Mi Bamco.</li>
+    </ul>
+</div>
+
+</body>
+</html>
